@@ -7,7 +7,7 @@ function isObjInArray(obj, array, func){
   return false;
 }
 
-function customClon(original, circleRefs){
+function clone(original, circleRefs){
   circleRefs = circleRefs || [];
   var copy;
 
