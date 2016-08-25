@@ -1,12 +1,3 @@
-// --------------------------------------------------------
-// Merge 2 arrays
-// params:
-//   a                  array1
-//   b                  array2
-//   getk               function to specify a key for objects
-//   behavior   1         -> skip repeated elements
-//             -1        -> take the last repeated element
-// ---------------------------------------------------------
 function merge(a, b, getk, behavior) {
   var behaviorFlag = behavior || 1;
   var getKey = getk || function (el) { return el; };
